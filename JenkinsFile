@@ -8,7 +8,7 @@ pipeline {
     stages { 
         stage('Cloning Git Repo') { 
             steps { 
-                git branch:'main', url: 'https://github.com/gowreeshstark/python-flask-app.git' 
+                git branch:'main', url: 'https://github.com/gowreeshstark/python_flask_new_repo.git' 
             }
         }
         stage('Flake8 Check') {
